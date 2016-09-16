@@ -1,0 +1,85 @@
+.bg-top{
+    background-image: url("http://lewagon.github.io/stylus/images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 30;
+    background-attachment: fixed;
+}
+.navbar-default{
+    box-shadow: none;
+    border:none;
+
+}
+.color-switch{
+    color:white; 
+        margin:20px; 
+}
+.color-switch:hover{
+    color:darkorange;
+}
+.bg-dodger{
+    background-color:dodgerblue;
+    text-align: center;
+}
+.top-card{
+    padding:30px;
+    margin-top:100px;
+    text-align:left;
+    color:floralwhite;
+}
+.middle-card{
+    text-align:center;
+    padding:35px;
+    color:white;
+    }
+.lower-card{
+    text-align:center;
+    padding:35px;
+    color:black;
+    }
+.thumbnail{
+    background:transparent;
+    border:0px;
+    box-shadow:0px;
+}
+.bg-grey{
+    background: lightgray;
+}
+
+.pulse {
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50%{
+      opacity: 0.2
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.bg-mtn{
+    background-image: url("sawtooth.png");
+    height:400px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+.footer{
+    background: black;
+    color:white;
+    padding:40px;
+}
+.center{
+    text-align: center;
+}
+.align-left{
+    text-align: left;
+}
+.align-right{
+    text-align: right;
+}
